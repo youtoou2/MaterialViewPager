@@ -8,25 +8,6 @@
     android:orientation="vertical">
 
     <FrameLayout
-        android:id="@+id/headerBackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:background="@color/colorPrimary"
-        tools:layout_height="250dp">
-
-        <FrameLayout
-            android:id="@+id/headerBackgroundContainer"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <View
-            android:id="@+id/statusBackground"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </FrameLayout>
-
-    <FrameLayout
         android:id="@+id/viewpager_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -71,5 +52,23 @@
             android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/headerBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/colorPrimary"
+        tools:layout_height="250dp">
+
+        <FrameLayout
+            android:id="@+id/headerBackgroundContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/statusBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
 
 </RelativeLayout>
